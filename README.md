@@ -11,6 +11,6 @@ up the footprint. Each time a move is made, the move is checked for validity in 
 valid footprint, etc. Invalid moves return False, and print a message declaring the issue, while valid moves simply
 return True. Once a move is confirmed valid, it is executed and the game checks if a player has won. A player
 wins when the opposing player has no 'rings' or 'circles' of 8 stones all owned by the player, with an empty center.
-Detailed rules can be found at {{https://www.chessvariants.com/crossover.dir/gess.html}}.
+Detailed rules can be found at https://www.chessvariants.com/crossover.dir/gess.html.
 
 ![](gessgame.png)
