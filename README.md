@@ -1,5 +1,6 @@
 # GessGameProject
-A python terminal playable 'Gess' game, a hybrid of Go/Chess.
+{A python terminal playable 'Gess' game, a hybrid of Go/Chess}
+
 Implementation of Gess, a GO/Chess hybrid game. The game is played on an 18x18 grid of squares, with each
 player owning 43 stones, represented with "B" for the black stones and "W" for the white stones. "E" represents empty
 spots but a method in the GessGame class be used to alter that to user's preference. Moves are made by declaring the
