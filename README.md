@@ -1,4 +1,4 @@
-# GessGameProject
+# Gess Game Project
 {A python terminal playable 'Gess' game, a hybrid of Go/Chess}
 
 Implementation of Gess, a GO/Chess hybrid game. The game is played on an 18x18 grid of squares, with each
