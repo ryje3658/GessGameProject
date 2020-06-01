@@ -54,15 +54,10 @@ class Footprint:
         east = [center[0], center[1] + 1]
         southeast = [center[0] + 1, center[1] + 1]
 
-        foot_print_coordinates.append(center)
-        foot_print_coordinates.append(northwest)
-        foot_print_coordinates.append(west)
-        foot_print_coordinates.append(southwest)
-        foot_print_coordinates.append(south)
-        foot_print_coordinates.append(north)
-        foot_print_coordinates.append(northeast)
-        foot_print_coordinates.append(east)
-        foot_print_coordinates.append(southeast)
+        directions = [center, northwest, west, southwest, south, north, northeast, east, southeast]
+
+        for direction in directions:
+            foot_print_coordinates.append(direction)
 
         return foot_print_coordinates
 
